@@ -1,0 +1,67 @@
+/* webcam code referenced from https://www.kirupa.com/html5/accessing_your_webcam_in_html5.htm */
+
+.container {
+  margin: 0px auto;
+  width: 80%;
+  height: 80%;
+}
+
+.webcam{
+  width: 80%;
+  height: 80%;
+  background-color: #666;
+  filter: saturate(500%) hue-rotate(200deg) blur(1.5px);
+  border: 10px #FF4D00 solid;
+}
+
+h2 {
+  text-shadow: -3px 0px 5px #EA1C41, -3px 0px 5px #EA1C41, -3px 0px 5px;
+}
+
+.boxed {
+  background-color: #C13FFF;
+  position: relative;
+}
+
+.boxed p {
+  padding: 3%
+}
+
+.background1 {
+  background-image: url("gif2.gif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.blur {
+  width: 100%;
+  height: 10%;
+  background-color: #001144;
+  box-shadow: 0 0 5px 10px #001144;
+}
+
+.navigation li {
+  display: inline;
+  float: left;
+}
+
+.navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigation ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: black;
+  opacity: .8;
+  margin: 0;
+padding: 0;
+}
+
+.navigation li a:hover {
+  background-color: #EA1C41;
+}
