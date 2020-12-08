@@ -6,7 +6,7 @@
   height: 80%;
 }
 
-.webcam{
+#videoElement{
   width: 80%;
   height: 80%;
   background-color: #666;
